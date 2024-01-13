@@ -678,9 +678,9 @@
         }
     }
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:775px) {
     .container {
-        max-width: 630px;
+        max-width: 730px;
     }
     .header__container {
         gap: 20px;
@@ -715,5 +715,22 @@
         .card2 {
             gap: 200px;
         }
+    }
+}
+@media screen and (max-width:713px) {
+    .container {
+        max-width: 680px;
+    }
+}
+@media screen and (max-width:679px) {
+    .container {
+        max-width: 650px;
+    }
+    .page__container {
+        .page__saccues {
+            width: 600px;
+        }
+    }
+    .footer__container {
     }
 }
